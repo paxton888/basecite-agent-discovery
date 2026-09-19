@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.paxton888/basecite",
+  "description": "Tenant-scoped evidence intake and controlled AI context over MCP.",
+  "repository": {
+    "url": "https://github.com/paxton888/basecite-agent-discovery",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.basecite.com/mcp"
+    }
+  ]
+}
