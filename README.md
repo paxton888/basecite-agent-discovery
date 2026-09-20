@@ -5,6 +5,7 @@ BaseCite is a tenant-scoped evidence intake and controlled AI-context service. I
 ## Public developer resources
 
 - Website: https://basecite.com/
+- Official company profile: https://basecite.com/company
 - Developer portal: https://basecite.com/developers
 - API documentation: https://basecite.com/docs/developers
 - OpenAPI: https://api.basecite.com/api/v1/ai/openapi.json
@@ -14,6 +15,14 @@ BaseCite is a tenant-scoped evidence intake and controlled AI-context service. I
 - Official MCP Registry entry: https://registry.modelcontextprotocol.io/v0.1/servers/io.github.paxton888%2Fbasecite/versions/0.1.0
 - Smithery listing: https://smithery.ai/servers/alwaysrememberme1024/basecite
 - JavaScript SDK: https://www.npmjs.com/package/basecite-agent-sdk
+
+## Official brand identity
+
+BaseCite is the canonical product and service name for evidence-context infrastructure at https://basecite.com/.
+
+- Public support: support@basecite.com
+- Security and privacy: security@basecite.com
+- Public location signal: Kuala Lumpur, Malaysia
 
 ## Agent resources
 
