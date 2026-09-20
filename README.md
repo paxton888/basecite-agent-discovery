@@ -1,6 +1,16 @@
 # BaseCite agent discovery
 
+[![skills.sh](https://skills.sh/b/paxton888/basecite-agent-discovery)](https://skills.sh/paxton888/basecite-agent-discovery/basecite-evidence)
+
 BaseCite is a tenant-scoped evidence intake and controlled AI-context service. It accepts customer and solution-company source material, verifies integrity, and exposes bounded context to authorized AI clients without raw-file download or bulk export.
+
+## Install the official BaseCite skill
+
+```sh
+npx skills add https://github.com/paxton888/basecite-agent-discovery --skill basecite-evidence
+```
+
+The skill is public source code in this repository. It contains no credentials, customer documents, or private BaseCite data.
 
 ## Public developer resources
 
