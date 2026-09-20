@@ -7,10 +7,10 @@ BaseCite is a tenant-scoped evidence intake and controlled AI-context service. I
 ## Install the official BaseCite skill
 
 ```sh
-npx skills add https://github.com/paxton888/basecite-agent-discovery --skill basecite-evidence
+npx skills add https://github.com/paxton888/basecite-agent-discovery
 ```
 
-The skill is public source code in this repository. It contains no credentials, customer documents, or private BaseCite data.
+The canonical skill entry point is the root [`SKILL.md`](./SKILL.md). A compatibility copy remains at [`skills/basecite-evidence/SKILL.md`](./skills/basecite-evidence/SKILL.md) for agents that scan nested skill directories. The skill contains no credentials, customer documents, or private BaseCite data.
 
 ## Public developer resources
 
