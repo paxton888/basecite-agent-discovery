@@ -4,13 +4,19 @@
 
 BaseCite is a tenant-scoped evidence intake and controlled AI-context service. It accepts customer and solution-company source material, verifies integrity, and exposes bounded context to authorized AI clients without raw-file download or bulk export.
 
-## Install the official BaseCite skill
+## Install the official BaseCite skills
 
 ```sh
-npx skills add https://github.com/paxton888/basecite-agent-discovery
+npx skills add https://github.com/paxton888/basecite-agent-discovery --skill '*'
 ```
 
-The canonical skill entry point is the root [`SKILL.md`](./SKILL.md). A compatibility copy remains at [`skills/basecite-evidence/SKILL.md`](./skills/basecite-evidence/SKILL.md) for agents that scan nested skill directories. The skill contains no credentials, customer documents, or private BaseCite data.
+The repository publishes three distinct installable skills under [`skills/`](./skills):
+
+- [`basecite-evidence`](./skills/basecite-evidence/SKILL.md) for product discovery and safe evidence workflows
+- [`basecite-developer-integration`](./skills/basecite-developer-integration/SKILL.md) for server-side API integration
+- [`basecite-withdrawal`](./skills/basecite-withdrawal/SKILL.md) for authorized complete withdrawal and deletion verification
+
+The skills contain no credentials, customer documents, or private BaseCite data.
 
 ## Public developer resources
 
@@ -24,6 +30,7 @@ The canonical skill entry point is the root [`SKILL.md`](./SKILL.md). A compatib
 - MCP server card: https://mcp.basecite.com/.well-known/mcp/server-card.json
 - Official MCP Registry entry: https://registry.modelcontextprotocol.io/v0.1/servers/io.github.paxton888%2Fbasecite/versions/0.1.0
 - Smithery listing: https://smithery.ai/servers/alwaysrememberme1024/basecite
+- Glama listing: https://glama.ai/mcp/connectors/io.github.paxton888/basecite
 - JavaScript SDK: https://www.npmjs.com/package/basecite-agent-sdk
 
 ## Official brand identity
